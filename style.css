@@ -10,6 +10,26 @@ body {
   background-repeat: no-repeat;
   background-color: #684bb1;
   font-size: 100%;
+  width: 296px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styling */
+header {
+  margin: 40px 0 70px 0;
+}
+header img {
+  width: 120px;
+}
+
+/* Figure Styling */
+figure {
+  margin-bottom: 35px;
+}
+figure img {
+  width: 296px;
 }
 
 /* Main Styling */
@@ -19,6 +39,7 @@ main h1 {
   font-size: 1.5em;
   line-height: 1.5em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 main p {
@@ -27,6 +48,7 @@ main p {
   font-size: 1em;
   line-height: 1.5em;
   color: #fff;
+  margin-bottom: 24px;
 }
 
 main button {
@@ -35,9 +57,14 @@ main button {
   font-size: 0.75em;
   line-height: 1.5em;
   color: #684bb1;
+  width: 200px;
+  margin-bottom: 64px;
 }
 
 /* Section Styling */
+section {
+  margin-bottom: 32px;
+}
 section i {
   color: #fff;
 }
