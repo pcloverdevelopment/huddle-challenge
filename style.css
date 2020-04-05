@@ -37,6 +37,11 @@ main button {
   color: #684bb1;
 }
 
+/* Section Styling */
+section i {
+  color: #fff;
+}
+
 /* Footer Styling */
 .attribution {
   font-size: 11px;
