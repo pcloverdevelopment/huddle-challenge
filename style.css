@@ -8,9 +8,10 @@
 body {
   background-image: url("images/bg-mobile.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   background-color: #684bb1;
   font-size: 100%;
-  width: 296px;
+  width: 304px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -33,6 +34,10 @@ figure img {
 }
 
 /* Main Styling */
+main {
+  margin-bottom: 64px;
+}
+
 main h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -40,6 +45,7 @@ main h1 {
   line-height: 1.5em;
   color: #fff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 main p {
@@ -49,6 +55,7 @@ main p {
   line-height: 1.5em;
   color: #fff;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 main button {
@@ -57,16 +64,23 @@ main button {
   font-size: 0.75em;
   line-height: 1.5em;
   color: #684bb1;
-  width: 200px;
-  margin-bottom: 64px;
+  background-color: #fff;
+  padding: 11.5px 75.5px;
+  border-radius: 20px;
+  border: none;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Section Styling */
 section {
   margin-bottom: 32px;
+  align-self: center;
 }
+
 section i {
   color: #fff;
+  padding: 0 5px;
 }
 
 /* Footer Styling */
