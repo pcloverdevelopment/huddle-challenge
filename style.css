@@ -1,3 +1,42 @@
+/* Reset Style */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Body Styling */
+body {
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: #684bb1;
+  font-size: 100%;
+}
+
+/* Main Styling */
+main h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+main p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+main button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  color: #684bb1;
+}
+
 /* Footer Styling */
 .attribution {
   font-size: 11px;
