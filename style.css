@@ -11,40 +11,17 @@ body {
   background-size: contain;
   background-color: #684bb1;
   font-size: 100%;
-  width: 304px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
-/* Header Styling */
-header {
-  margin: 40px 0 70px 0;
-}
-header img {
-  width: 120px;
-}
-
-/* Figure Styling */
-figure {
-  margin-bottom: 35px;
-}
-figure img {
-  width: 296px;
-}
-
 /* Main Styling */
-main {
-  margin-bottom: 64px;
-}
-
 main h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.5em;
   line-height: 1.5em;
   color: #fff;
-  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -54,7 +31,6 @@ main p {
   font-size: 1em;
   line-height: 1.5em;
   color: #fff;
-  margin-bottom: 24px;
   text-align: center;
 }
 
@@ -74,7 +50,6 @@ main button {
 
 /* Section Styling */
 section {
-  margin-bottom: 32px;
   align-self: center;
 }
 
