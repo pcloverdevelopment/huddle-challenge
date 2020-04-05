@@ -13,10 +13,16 @@ body {
   font-size: 100%;
 }
 
+/* Main Styling */
+main {
+  margin: 0 auto;
+}
+
 /* Header Styling */
 header img {
   width: 32%;
   max-width: 200px;
+  padding: 40px 0 70px 40px;
 }
 
 /* Flex Container Styling */
@@ -32,6 +38,9 @@ figure {
 
 figure img {
   width: 78.93%;
+  max-width: 696px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Section Styling */
@@ -44,6 +53,7 @@ section h1 {
   line-height: 1.5em;
   color: #fff;
   text-align: center;
+  padding: 60px 47.5px 16px 47.5px;
 }
 
 section p {
@@ -53,6 +63,7 @@ section p {
   line-height: 1.5em;
   color: #fff;
   text-align: center;
+  padding: 0 35.5px 24px 35.5px;
 }
 
 section button {
@@ -71,7 +82,8 @@ section button {
 
 /* Section Styling */
 aside {
-  align-self: center;
+  padding-top: 64px;
+  text-align: center;
 }
 
 aside i {
