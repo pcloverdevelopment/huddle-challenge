@@ -1,3 +1,79 @@
 /* Styling when width get's above 375px */
 @media only screen and (min-width: 376px) {
+  /* Reset Selector */
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Body Styling */
+  body {
+    background-image: url("images/bg-desktop.svg");
+  }
+
+  /* Header Styling */
+  header {
+    padding: 64px 0 118px 80px;
+  }
+
+  /* Flex Container Styling */
+  .flex_container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    padding-left: 80px;
+  }
+
+  /* Figure Styling */
+  figure {
+    flex-basis: 50%;
+  }
+
+  figure img {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Section Styling */
+  section {
+    flex-basis: 49%;
+    padding-left: 60px;
+  }
+
+  section h1,
+  section p {
+    text-align: left;
+    padding: 0;
+  }
+
+  section h1 {
+    font-size: 2.5em;
+    padding-right: 118px;
+    padding-bottom: 24px;
+  }
+
+  section p {
+    font-size: 1.125em;
+    padding-right: 85px;
+    padding-bottom: 24px;
+  }
+
+  section button {
+    font-size: 1.125em;
+    padding: 14.5px 63.5px 14.5px 63.5px;
+    border-radius: 28px;
+    box-shadow: rgba(0, 0, 0, 0.26) 2px 4px 9px 3;
+    margin: 0;
+  }
+
+  /* Aside Styling */
+  aside {
+    text-align: right;
+    padding-right: 80px;
+  }
+
+  aside i {
+    font-size: 1.5em;
+    padding: 0 10px;
+  }
 }

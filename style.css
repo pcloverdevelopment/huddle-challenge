@@ -28,22 +28,15 @@ header img {
   max-width: 200px;
 }
 
-/* Flex Container Styling */
-.flex_container {
-  width: 100%;
-}
-
 /* Figure Styling */
 figure {
   width: 100%;
-  max-width: 696px;
 }
 
 figure img {
   width: 78.9333%;
   max-width: 696px;
   display: block;
-  margin: 0 auto;
 }
 
 /* Section Styling */
@@ -81,11 +74,12 @@ section button {
   padding: 11.5px 75.5px;
   border-radius: 20px;
   border: none;
+  box-shadow: rgba(0, 0, 0, 0.27) 1px 3px 5px 0;
   display: block;
   margin: 0 auto;
 }
 
-/* Section Styling */
+/* Aside Styling */
 aside {
   text-align: center;
   padding-bottom: 45px;
@@ -94,6 +88,7 @@ aside {
 aside i {
   color: #fff;
   padding: 0 5px;
+  font-size: 1em;
 }
 
 /* Footer Styling */
