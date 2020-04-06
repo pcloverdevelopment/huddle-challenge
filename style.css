@@ -19,10 +19,13 @@ main {
 }
 
 /* Header Styling */
+header {
+  padding: 40px 0 70px 10.667%;
+}
+
 header img {
-  width: 32%;
+  width: 35.8042%;
   max-width: 200px;
-  padding: 40px 0 70px 40px;
 }
 
 /* Flex Container Styling */
@@ -37,15 +40,17 @@ figure {
 }
 
 figure img {
-  width: 78.93%;
+  width: 78.9333%;
   max-width: 696px;
   display: block;
   margin: 0 auto;
 }
 
 /* Section Styling */
+section {
+  padding: 60px 0 64px 0;
+}
 
-/* Section Styling */
 section h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -53,7 +58,7 @@ section h1 {
   line-height: 1.5em;
   color: #fff;
   text-align: center;
-  padding: 60px 47.5px 16px 47.5px;
+  padding: 0 12.667% 0 12.667%;
 }
 
 section p {
@@ -63,7 +68,7 @@ section p {
   line-height: 1.5em;
   color: #fff;
   text-align: center;
-  padding: 0 35.5px 24px 35.5px;
+  padding: 16px 9.4667% 24px 9.4667%;
 }
 
 section button {
@@ -82,8 +87,8 @@ section button {
 
 /* Section Styling */
 aside {
-  padding-top: 64px;
   text-align: center;
+  padding-bottom: 45px;
 }
 
 aside i {
