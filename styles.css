@@ -105,9 +105,6 @@ aside ul li a {
   width: 28px;
 }
 
-aside ul li a i {
-}
-
 /* RWD
 __________________________________________*/
 @media screen and (min-width: 800px) {
