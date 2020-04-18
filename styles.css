@@ -9,7 +9,7 @@ __________________________________________*/
 /* Body
 __________________________________________*/
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("images/bg-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -20,34 +20,29 @@ body {
 /* Main
 __________________________________________*/
 main {
-  width: 100%;
   font-size: 62.5%;
-  margin-bottom: 40px;
+  margin: 38px 35px 40px 36px;
 }
 
 /* Header
 __________________________________________*/
 header {
-  margin: 38px 0 70px 10.667%;
+  margin-bottom: 70px;
 }
-
 header img {
-  width: 35.820896%;
+  width: 39.473684%;
+  max-width: 200px;
 }
 
 /* Section
 __________________________________________*/
-section img {
-  width: 78.9333%;
-  display: block;
-  margin: 0 auto;
+#illustration_mockup img {
+  width: 100%;
 }
-
-section div {
-  margin: 60px 9.333% 64px 9.6%;
+#registration {
+  margin: 60px 0 64px 0;
 }
-
-section div h1 {
+#registration h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2.4em;
   color: #fff;
@@ -56,8 +51,7 @@ section div h1 {
   text-align: center;
   margin-bottom: 16px;
 }
-
-section div p {
+#registration p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6em;
   color: #fff;
@@ -65,8 +59,7 @@ section div p {
   text-align: center;
   margin-bottom: 24px;
 }
-
-section div button {
+#registration button {
   font-family: "Poppins", sans-serif;
   font-size: 1.2em;
   color: #684bb1;
@@ -74,9 +67,10 @@ section div button {
   line-height: 1.5em;
   border: none;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.26) 1px 3px 5px 0;
   display: block;
   margin: 0 auto;
-  width: 65.789474%;
+  width: 200px;
   padding: 11px 0 11px 0;
 }
 
@@ -87,11 +81,9 @@ aside ul {
   justify-content: center;
   list-style-type: none;
 }
-
 aside ul li:nth-child(2) {
   padding: 0 11px;
 }
-
 aside ul li a {
   text-decoration: none;
   font-size: 1.6em;
@@ -107,14 +99,58 @@ aside ul li a {
 
 /* RWD
 __________________________________________*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+  }
+
+  main {
+    margin: 64px 80px 40px 80px;
+  }
+
   section {
     display: flex;
+    margin-bottom: 27px;
   }
-  section img {
-    width: 50%;
+  #illustration_mockup {
+    width: 57.973611%;
   }
-  section div {
-    width: 50%;
+  #registration {
+    width: 42.026389%;
+    margin: 32px 0 27px 59px;
+  }
+  #registration h1 {
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  #registration p {
+    font-size: 1.8em;
+    text-align: left;
+  }
+  #registration button {
+    font-size: 1.8em;
+    box-shadow: rgba(0, 0, 0, 0.26) 2px 4px 9px 3px;
+    margin: 0;
+  }
+
+  aside ul {
+    justify-content: flex-end;
+  }
+  aside ul li:nth-child(2) {
+    padding: 0 16px;
+  }
+  aside ul li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
   }
 }
